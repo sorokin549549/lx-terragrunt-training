@@ -8,7 +8,7 @@ include "root" {
 
 
 inputs = {
-  allow_ports         = [22, 80]
+  allow_ports         = [22, 80, 443]
   env                 = "dev"
   public_subnet_cidrs = "10.0.5.0/24"
 
