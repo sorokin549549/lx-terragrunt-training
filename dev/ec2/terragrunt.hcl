@@ -1,6 +1,6 @@
 terraform {
   # source = "git::git@github.com:terraform-aws-modules/terraform-aws-ec2-instance.git//.?ref=v4.0.0"
-  source = "..//modules/Servers"
+  source = "../../modules//Servers"
 }
 
 include "root" {

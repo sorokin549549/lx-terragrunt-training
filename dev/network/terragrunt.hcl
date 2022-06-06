@@ -1,5 +1,5 @@
 terraform {
-  source = "..//modules/Network"
+  source = "../../modules//Network/"
 }
 
 include "root" {
@@ -13,6 +13,3 @@ inputs = {
   public_subnet_cidrs = "10.0.5.0/24"
 
 }
-
-
-
