@@ -20,7 +20,7 @@ dependency "network" {
 inputs = {
   
 
-   enviroment         = "prod"
+   enviroment         = "dev"
   # ami                    = "ami-0b0c271bc281923cc"
   instance_type      = "t3.nano"
 
